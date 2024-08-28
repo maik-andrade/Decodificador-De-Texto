@@ -1,0 +1,124 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+/* Título principal */
+h1 {
+    margin: 20px 0;
+    color: #007BFF;
+}
+
+/* Estilo para o container dos balões */
+.container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os balões de texto */
+.balloon {
+    background-color: #ffffff;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.balloon h2 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.balloon textarea, .balloon p {
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    color: #333;
+}
+
+.balloon textarea {
+    height: 150px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+/* Estilo para os botões */
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para a seção de alerta */
+.alert {
+    display: flex;
+    align-items: center;
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+.alert-icon {
+    width: 24px;
+    margin-right: 10px;
+}
+
+/* Imagem de apresentação */
+.apresentacao__imagem {
+    margin: 20px 0;
+}
+
+.imagem-apresentacao {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+    margin-top: auto;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
