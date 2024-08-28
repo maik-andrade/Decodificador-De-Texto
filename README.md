@@ -34,12 +34,12 @@ Este projeto faz parte da Turma 7 da ONE - Oracle Next Education, uma iniciativa
 
 1. Clone o repositório:
    ```
-   gh repo clone anderson-cst/decodificador-oracle-one-alura
+   gh repo clone maik-andrade/Decodificador-De-Texto
    ```
 
 2. Navegue até o diretório do projeto:
     ```
-   cd decodificado-oracle-one-alura
+   cd Decodificador-De-Texto
    ```
 
 3. Abra o arquivo index.html no seu navegador.
